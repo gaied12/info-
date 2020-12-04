@@ -1,0 +1,32 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}! <img  id="img1" src="https://img.icons8.com/emoji/96/000000/man-surfing.png"/> </h1>
+
+
+    <div class="container">
+      <div class="row">
+
+
+      <div *ngFor="let a of list" class="card" style="width:400px">
+        <img class="card-img-top" src= {{a.Img}} alt="Card image" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">{{a.FirstLame}}  {{a.LastName}}</h4>
+          <p class="card-text">{{a.Date}}</p>
+          <p class="card-text">{{a.Place}}</p>
+
+
+          <p class="card-text">{{a.Desc}}</p>
+
+          <div  class="rating">
+
+          <a href="#2" title="Donner 2 étoiles">★★☆☆☆</a>
+       </div>
+
+        </div>
+      </div>
+
+        </div>
+        </div>
+
+

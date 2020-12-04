@@ -1,0 +1,43 @@
+#img1{
+  border-radius: 50%;
+
+
+
+}
+.row{
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.card {
+  /*float: left;*/
+  max-width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+  flex-basis: 33.333%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  font-size: 85%;
+}
+.rating a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 3em;
+  transition: color .4s;
+}
+.rating a:hover,
+.rating a:focus {
+  color: orange;
+  cursor: pointer;
+}
